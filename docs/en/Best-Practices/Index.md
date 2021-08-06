@@ -1,16 +1,25 @@
-﻿## Module Development Best Practices & Conventions
+<!--﻿## Module Development Best Practices & Conventions-->
+﻿## 模块化开发最佳实践与约定
+ 
+<!--### Introduction-->
+### 简介
 
-### Introduction
+<!--This document describes the **best practices** and **conventions** for those who want to develop **modules** that satisfy the following specifications:-->
+本文档为开发**模块化**应用的开发人员提供了以下**最佳实践** 以及 **约定**：
 
-This document describes the **best practices** and **conventions** for those who want to develop **modules** that satisfy the following specifications:
-
+<!--
 * Develop modules that conform to the **Domain Driven Design** patterns & best practices.
 * Develop modules with **DBMS and ORM independence**.
+* Develop modules that can be used as a **remote service / microservice** as well as being compatible with a **monolithic** application.-->
+
+* 开发模块符合**领域驱动设计**模式以及对应的最佳实践.
+* 开发模块 with **DBMS and ORM independence**.
 * Develop modules that can be used as a **remote service / microservice** as well as being compatible with a **monolithic** application.
 
 Also, this guide is mostly usable for general **application development**.
 
-### Guides
+<!--### Guides-->
+### 指南
 
 * Overall
   * [Module Architecture](Module-Architecture.md)
